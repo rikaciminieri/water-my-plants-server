@@ -1,6 +1,6 @@
 const router = require('express').Router()
 const Plant = require('./plant-model')
-const {validatePlant , checkPlantId} = require('./plants-middleware')
+const {validatePlant , checkPlantId} = require('./plant-middleware')
 
 
 
