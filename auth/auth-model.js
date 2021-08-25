@@ -1,4 +1,4 @@
-const db = require('../../data/db-config')
+const db = require('../data/db-config')
 const { getById } = require('../plants/plant-model')
 
 const findAll = () => {
